@@ -1,14 +1,29 @@
+body{
+    background-color: #3d0101;
+    margin: 0;
+    padding: 0;
+}
+
 header{
     display: flex;
     justify-content:space-between;
     top: 0;
     font-size: 2rem;
+    color: black;
+    background-color: #014524;
 }
 
 input{
     top: 0;
     text-align: center;
+    font-size: x-large;
     width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.left-header{
+    margin-left: 1%;
 }
 
 .right-header{
@@ -16,9 +31,24 @@ input{
     justify-content:space-between;
 }
 
+.warenkorb{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.acount{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
 .favoriten{
     margin-left: 1em;
     margin-right: 1em;
+    &:hover{
+        text-decoration: underline;
+    }
 }
 
 .produkte{
