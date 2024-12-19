@@ -2,12 +2,13 @@ header{
     display: flex;
     justify-content:space-between;
     top: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 input{
     top: 0;
     text-align: center;
+    width: 30%;
 }
 
 .right-header{
@@ -24,8 +25,29 @@ input{
     align-content: center;
     display: flex;
     justify-content: space-between;
-    margin-left: 10em;
-    margin-right: 10em;
-    margin-top: 10em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10rem;
 }
 
+.produkte2{
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.25rem;
+}
+
+.produkt1{
+    height: 200px;
+    width: 200px;
+}
+.produkt2{
+    height: 200px;
+    width: 200px;
+}
+.produkt3{
+    height: 200px;
+    width: 200px;
+}
