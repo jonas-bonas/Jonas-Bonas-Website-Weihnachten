@@ -9,7 +9,7 @@ header{
     justify-content:space-between;
     top: 0;
     font-size: 2rem;
-    color: black;
+    color: white;
     background-color: #014524;
 }
 
@@ -60,7 +60,8 @@ input{
     margin-top: 10rem;
 }
 
-.produkte2{
+.produkte-text{
+    color: white;
     align-content: center;
     display: flex;
     justify-content: space-between;
