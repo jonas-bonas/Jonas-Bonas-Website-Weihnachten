@@ -66,20 +66,20 @@ input{
     align-content: center;
     display: flex;
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12.5%;
+    margin-right: 22.5%;
     font-size: 1.25rem;
 }
 
 .produkt1{
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: 70%;
 }
 .produkt2{
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: 70%;
 }
 .produkt3{
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: 70%;
 }
