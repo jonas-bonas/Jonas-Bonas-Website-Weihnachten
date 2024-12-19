@@ -1,5 +1,5 @@
 body{
-    background-color: #3d0101;
+    background-color: #eeeeec;
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,7 @@ header{
     top: 0;
     font-size: 2rem;
     color: white;
-    background-color: #014524;
+    background-color: #0f1111;
 }
 
 input{
