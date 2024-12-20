@@ -16,36 +16,6 @@ header{
 input{
     top: 0;
     text-align: center;
-    font-size: x-large;
-    width: 30%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.left-header{
-    margin-left: 2%;
-}
-
-.right-header{
-    margin-right: 2%;
-body{
-    background-color: #eeeeec;
-    margin: 0;
-    padding: 0;
-}
-
-header{
-    display: flex;
-    justify-content:space-between;
-    top: 0;
-    font-size: 2rem;
-    color: white;
-    background-color: #0f1111;
-}
-
-input{
-    top: 0;
-    text-align: center;
     font-size: medium;
     width: 30%;
     margin-top: 15px;
