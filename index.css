@@ -72,9 +72,10 @@ input{
     align-content: center;
     display: flex;
     justify-content: center;
-    margin-left: 12.5%;
-    margin-right: 22.5%;
+    margin-left: 5rem;
+    margin-right: 5rem;
     font-size: 1.25rem;
+    margin-top: 10px; /* Abstand zwischen Bild und Text */
 }
 
 .logo{
@@ -127,4 +128,12 @@ input{
 .footer-copyright {
     font-size: 14px;
     color: #555;
+}
+
+.produkt-container {
+    border: 1px solid #000; /* Schwarze Umrandung */
+    padding: 10px; /* Innenabstand */
+    margin: 10px; /* Außenabstand */
+    display: inline-block; /* Inline-Block-Layout */
+    text-align: center; /* Zentrierter Text */
 }
