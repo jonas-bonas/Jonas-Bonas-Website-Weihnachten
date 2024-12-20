@@ -6,7 +6,7 @@ body{
 
 header{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     top: 0;
     font-size: 2rem;
     color: white;
@@ -34,18 +34,21 @@ input{
 }
 
 .warenkorb{
+    font-size: large;
     &:hover{
         text-decoration: underline;
     }
 }
 
 .acount{
+    font-size: large;
     &:hover{
         text-decoration: underline;
     }
 }
 
 .favoriten{
+    font-size: large;
     margin-left: 1em;
     margin-right: 1em;
     &:hover{
@@ -91,4 +94,35 @@ input{
 .produkt3{
     height: auto;
     width: 70%;
+}
+
+.footer {
+    background-color: #131A22;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #DDD;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #555;
 }
