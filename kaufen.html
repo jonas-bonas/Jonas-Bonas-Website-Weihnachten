@@ -37,12 +37,10 @@
         
 
         
-        <h2 style="text-align: center; padding-top: 2%;">Bist du sich das du "MEDIUM Family Christmas XMAS Special LIMITED Premium Geschenkkombi 6 in 1" kaufen möchtest?</h2>
-        <div style="text-align: center;">
-            <a href="index.html"><button style="width: 8rem; height: 3rem; font-size: large;">Abbrechen</button></a>
-            &emsp;&emsp;&emsp;
-            <a href="kaufen.html"><button style="width: 8rem; height: 3rem; font-size: large;">Kaufen</button></a>
-        </div>
+        <h2 style="text-align: center; padding-top: 5%;">Das Paket wurde versandt und wird in kürze bei Ihnen eintreffen.</h2>
+        &emsp;
+        <div style="text-align: center;"><img src="delivered.png"></div>
+        
 
         <footer>
             <div class="footer">
@@ -58,17 +56,5 @@
                 </div>
             </div>
         </footer>
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const buyButton = document.querySelector('a[href="kaufen.html"] button');
-            buyButton.addEventListener('click', function(event) {
-                event.preventDefault();
-                buyButton.innerHTML = 'Bitte warten';
-                setTimeout(function() {
-                    window.location.href = 'kaufen.html';
-                }, 2000)
-            });
-        });
-    </script>
     </body>
 </html>
