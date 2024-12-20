@@ -16,10 +16,10 @@ header{
 input{
     top: 0;
     text-align: center;
-    font-size: x-large;
+    font-size: medium;
     width: 30%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .left-header{
@@ -29,6 +29,7 @@ input{
 .right-header{
     margin-right: 2%;
     display: flex;
+    align-items: center;
     justify-content:space-between;
 }
 
@@ -58,17 +59,25 @@ input{
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10rem;
+    margin-top: 10rem;  
 }
 
 .produkte-text{
-    color: white;
+    color: black;
     align-content: center;
     display: flex;
     justify-content: space-between;
     margin-left: 12.5%;
     margin-right: 22.5%;
     font-size: 1.25rem;
+}
+
+.logo{
+    width: 20%;
+    height: auto; 
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .produkt1{
